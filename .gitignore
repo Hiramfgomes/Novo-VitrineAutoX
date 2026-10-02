@@ -1,6 +1,9 @@
 node_modules/
+dist/
+dist-ssr/
 COVERAGE/
 .DS_Store
 *.log
 .env*
 !.env.example
+.agents/
