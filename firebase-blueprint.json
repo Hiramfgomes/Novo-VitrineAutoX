@@ -1,0 +1,547 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "User profile information and role.",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "displayName": { "type": "string" },
+        "photoURL": { "type": "string" },
+        "role": { "type": "string", "enum": ["user", "admin", "lojista"] },
+        "phoneNumber": { "type": "string" },
+        "companyName": { "type": "string" },
+        "cnpj": { "type": "string" },
+        "address": { "type": "string" },
+        "city": { "type": "string" },
+        "state": { "type": "string" },
+        "phone": { "type": "string" },
+        "whatsapp": { "type": "string" },
+        "instagram": { "type": "string" },
+        "facebook": { "type": "string" },
+        "tiktok": { "type": "string" },
+        "logo": { "type": "string" },
+        "bio": { "type": "string" },
+        "service_documentacao": { "type": "boolean" },
+        "service_garantia": { "type": "boolean" },
+        "service_higienizacao": { "type": "boolean" },
+        "service_suporte": { "type": "boolean" },
+        "service_entrega": { "type": "boolean" },
+        "service_precedencia": { "type": "boolean" },
+        "service_laudo_cautelar": { "type": "boolean" },
+        "service_financiamentos": { "type": "boolean" },
+        "service_seguros": { "type": "boolean" },
+        "service_revisao_pre_entrega": { "type": "boolean" },
+        "city": { "type": "string" },
+        "state": { "type": "string" },
+        "isFeatured": { "type": "boolean", "description": "Whether the lojista is featured (paid highlight)." },
+        "subscription": {
+          "type": "object",
+          "properties": {
+            "status": { "type": "string", "enum": ["active", "inactive", "expired"] },
+            "plan": { "type": "string", "enum": ["semestral", "anual"] },
+            "expiresAt": { "type": "string", "format": "date-time" },
+            "paymentId": { "type": "string" }
+          }
+        },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["uid", "email", "role"]
+    },
+    "Vehicle": {
+      "title": "Vehicle",
+      "description": "Automobile details.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "manufacturer": { "type": "string" },
+        "model": { "type": "string" },
+        "version": { "type": "string" },
+        "year": { "type": "integer", "description": "Ano de fabricação" },
+        "modelYear": { "type": "integer", "description": "Ano do modelo" },
+        "price": { "type": "number" },
+        "vehicleValue": { "type": "number" },
+        "resalePrice": { "type": "number" },
+        "mileage": { "type": "number" },
+        "engine": { "type": "string" },
+        "fuelType": { "type": "string" },
+        "transmission": { "type": "string" },
+        "color": { "type": "string" },
+        "description": { "type": "string" },
+        "images": { "type": "array", "items": { "type": "string" } },
+        "ownerId": { "type": "string" },
+        "status": { "type": "string", "enum": ["active", "sold", "pending"] },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" },
+        "category": { "type": "string", "enum": ["car", "motorcycle", "truck", "heavy", "nautical", "other"] },
+        "isFeatured": { "type": "boolean", "description": "Whether the vehicle is featured (paid highlight)." },
+        "paymentStatus": { "type": "string", "enum": ["unpaid", "paid", "pending"] },
+        "paymentId": { "type": "string" },
+        "plan": { "type": "string", "enum": ["basic", "premium", "featured"] },
+        "contactName": { "type": "string" },
+        "whatsapp": { "type": "string" },
+        "city": { "type": "string" },
+        "state": { "type": "string" },
+        "neighborhood": { "type": "string" }
+      },
+      "required": ["id", "manufacturer", "model", "price", "ownerId", "status", "paymentStatus"]
+    },
+    "Product": {
+      "title": "Product",
+      "description": "Automotive product details.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "price": { "type": "number" },
+        "category": { 
+          "type": "string",
+          "enum": ["auto_pecas", "acessorios"]
+        },
+        "images": { "type": "array", "items": { "type": "string" } },
+        "ownerId": { "type": "string" },
+        "status": { "type": "string", "enum": ["active", "sold", "pending"] },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" },
+        "paymentStatus": { "type": "string", "enum": ["unpaid", "paid", "pending"] },
+        "paymentId": { "type": "string" },
+        "plan": { "type": "string", "enum": ["basic", "premium"] },
+        "contactName": { "type": "string" },
+        "whatsapp": { "type": "string" },
+        "city": { "type": "string" },
+        "state": { "type": "string" },
+        "neighborhood": { "type": "string" }
+      },
+      "required": ["id", "name", "price", "ownerId", "status", "paymentStatus"]
+    },
+    "Service": {
+      "title": "Service",
+      "description": "Automotive service details.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "price": { "type": "number" },
+        "category": { 
+          "type": "string",
+          "enum": ["financeiras", "oficina", "estetica_lavajato", "inspecao", "seguros"]
+        },
+        "images": { "type": "array", "items": { "type": "string" } },
+        "ownerId": { "type": "string" },
+        "status": { "type": "string", "enum": ["active", "inactive", "pending"] },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" },
+        "paymentStatus": { "type": "string", "enum": ["unpaid", "paid", "pending"] },
+        "paymentId": { "type": "string" },
+        "plan": { "type": "string", "enum": ["basic", "premium"] },
+        "contactName": { "type": "string" },
+        "whatsapp": { "type": "string" },
+        "city": { "type": "string" },
+        "state": { "type": "string" },
+        "neighborhood": { "type": "string" }
+      },
+      "required": ["id", "name", "ownerId", "status", "paymentStatus"]
+    },
+    "AppSetting": {
+      "title": "AppSetting",
+      "description": "General application settings.",
+      "type": "object",
+      "properties": {
+        "active": { "type": "boolean" },
+        "title": { "type": "string" },
+        "message": { "type": "string" },
+        "image": { "type": "string" },
+        "link": { "type": "string" },
+        "buttonText": { "type": "string" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      }
+    },
+    "AppControl": {
+      "title": "AppControl",
+      "description": "General application customization like menu labels and dynamic documents.",
+      "type": "object",
+      "properties": {
+        "menu_veiculos": { "type": "string" },
+        "menu_servicos": { "type": "string" },
+        "menu_eventos": { "type": "string" },
+        "menu_noticias": { "type": "string" },
+        "ajuda_suporte": { "type": "string" },
+        "contato": { "type": "string" },
+        "privacidade": { "type": "string" },
+        "termo_uso": { "type": "string" },
+        "sobre_nos": { "type": "string" },
+        "para_lojista": { "type": "string" },
+        "para_anunciantes": { "type": "string" },
+        "lgpd": { "type": "string" },
+        "siga_nos": {
+          "type": "object",
+          "properties": {
+            "instagram": { "type": "string" },
+            "facebook": { "type": "string" },
+            "youtube": { "type": "string" },
+            "whatsapp": { "type": "string" }
+          }
+        },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      }
+    },
+    "Alert": {
+      "title": "Alert",
+      "description": "User search criteria for new vehicle notifications.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "manufacturer": { "type": "string" },
+        "model": { "type": "string" },
+        "minPrice": { "type": "number" },
+        "maxPrice": { "type": "number" },
+        "minYear": { "type": "integer" },
+        "maxYear": { "type": "integer" },
+        "category": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "active": { "type": "boolean" }
+      },
+      "required": ["id", "userId", "createdAt", "active"]
+    },
+    "Notification": {
+      "title": "Notification",
+      "description": "In-app and push notification history.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "title": { "type": "string" },
+        "message": { "type": "string" },
+        "type": { "type": "string", "enum": ["system", "alert", "promotion"] },
+        "read": { "type": "boolean" },
+        "link": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "userId", "title", "message", "type", "read", "createdAt"]
+    },
+    "PushToken": {
+      "title": "PushToken",
+      "description": "FCM tokens for push notifications.",
+      "type": "object",
+      "properties": {
+        "token": { "type": "string" },
+        "userId": { "type": "string" },
+        "platform": { "type": "string" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["token", "userId", "updatedAt"]
+    },
+    "Lead": {
+      "title": "Lead",
+      "description": "Information about a potential customer inquiry.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "listingId": { "type": "string" },
+        "listingType": { "type": "string", "enum": ["vehicle", "product", "service"] },
+        "listingTitle": { "type": "string" },
+        "customerName": { "type": "string" },
+        "customerEmail": { "type": "string" },
+        "customerPhone": { "type": "string" },
+        "customerId": { "type": "string", "description": "The UID of the customer (buyer)." },
+        "ownerId": { "type": "string", "description": "The UID of the listing owner (seller)." },
+        "participants": { "type": "array", "items": { "type": "string" }, "description": "Array containing [customerId, ownerId] for easier querying." },
+        "status": { "type": "string", "enum": ["new", "viewed", "contacted", "closed"] },
+        "lastMessage": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "listingId", "customerName", "ownerId", "status"]
+    },
+    "LeadMessage": {
+      "title": "LeadMessage",
+      "description": "A message within a lead conversation.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "leadId": { "type": "string" },
+        "senderId": { "type": "string" },
+        "message": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "leadId", "senderId", "message", "createdAt"]
+    },
+    "ListingStats": {
+      "title": "ListingStats",
+      "description": "View counts and analytics for listings.",
+      "type": "object",
+      "properties": {
+        "listingId": { "type": "string" },
+        "ownerId": { "type": "string" },
+        "views": { "type": "integer" },
+        "leads": { "type": "integer" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["listingId", "ownerId", "views"]
+    },
+    "Event": {
+      "title": "Event",
+      "description": "Automotive events details managed by admin.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "startDate": { "type": "string" },
+        "endDate": { "type": "string" },
+        "startTime": { "type": "string" },
+        "endTime": { "type": "string" },
+        "category": { "type": "string" },
+        "organizer": { "type": "string" },
+        "phone": { "type": "string" },
+        "location": { "type": "string" },
+        "state": { "type": "string" },
+        "city": { "type": "string" },
+        "fullAddress": { "type": "string" },
+        "attendees": { "type": "integer" },
+        "image": { "type": "string" },
+        "images": { "type": "array", "items": { "type": "string" } },
+        "link": { "type": "string" },
+        "socialLinks": {
+          "type": "object",
+          "properties": {
+            "instagram": { "type": "string" },
+            "facebook": { "type": "string" },
+            "youtube": { "type": "string" }
+          }
+        },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["title", "startDate", "location"]
+    },
+    "AdminSession": {
+      "title": "AdminSession",
+      "description": "Mapping of Firebase UID to admin role for security rules.",
+      "type": "object",
+      "properties": {
+        "role": { "type": "string" },
+        "supabaseUid": { "type": "string" },
+        "email": { "type": "string" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      }
+    },
+    "TestDrive": {
+      "title": "TestDrive",
+      "description": "Premium test drive scheduling requests.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "vehicleId": { "type": "string" },
+        "vehicleTitle": { "type": "string" },
+        "vehicleImage": { "type": "string" },
+        "vehiclePrice": { "type": "number" },
+        "customerId": { "type": "string" },
+        "customerName": { "type": "string" },
+        "customerEmail": { "type": "string" },
+        "customerPhone": { "type": "string" },
+        "driverCnh": { "type": "string" },
+        "ownerId": { "type": "string" },
+        "date": { "type": "string" },
+        "time": { "type": "string" },
+        "addressType": { "type": "string" },
+        "address": { "type": "string" },
+        "street": { "type": "string" },
+        "number": { "type": "string" },
+        "complement": { "type": "string" },
+        "neighborhood": { "type": "string" },
+        "city": { "type": "string" },
+        "cep": { "type": "string" },
+        "notes": { "type": "string" },
+        "status": { "type": "string", "enum": ["pending", "accepted", "rejected", "completed"] },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "vehicleId", "customerId", "ownerId", "date", "time", "driverCnh", "status"]
+    },
+    "VideoCall": {
+      "title": "VideoCall",
+      "description": "Online video call showroom scheduling requests.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "vehicleId": { "type": "string" },
+        "vehicleTitle": { "type": "string" },
+        "vehicleImage": { "type": "string" },
+        "vehiclePrice": { "type": "number" },
+        "customerId": { "type": "string" },
+        "customerName": { "type": "string" },
+        "customerEmail": { "type": "string" },
+        "customerPhone": { "type": "string" },
+        "ownerId": { "type": "string" },
+        "date": { "type": "string" },
+        "time": { "type": "string" },
+        "platform": { "type": "string" },
+        "notes": { "type": "string" },
+        "status": { "type": "string", "enum": ["pending", "accepted", "rejected", "completed"] },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "vehicleId", "customerId", "ownerId", "date", "time", "platform", "status"]
+    },
+    "DealerStory": {
+      "title": "DealerStory",
+      "description": "Short stories with images and details for dealerships.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "lojistaId": { "type": "string" },
+        "lojistaName": { "type": "string" },
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "imageUrl": { "type": "string" },
+        "whatsapp": { "type": "string" },
+        "linkedItemId": { "type": "string" },
+        "linkedItemType": { "type": "string", "enum": ["vehicle", "product", "service"] },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["lojistaId", "title", "imageUrl"]
+    },
+    "Contract": {
+      "title": "Contract",
+      "description": "Generated purchase and sale contracts.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "ownerId": { "type": "string" },
+        "sellerName": { "type": "string" },
+        "buyerName": { "type": "string" },
+        "vehicleModel": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["ownerId"]
+    },
+    "VehicleEvaluation": {
+      "title": "VehicleEvaluation",
+      "description": "Evaluated and priced vehicles by the lojista.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "ownerId": { "type": "string" },
+        "plate": { "type": "string" },
+        "brandModel": { "type": "string" },
+        "modelYear": { "type": "string" },
+        "mileage": { "type": "number" },
+        "fipeValue": { "type": "number" },
+        "paintCondition": { "type": "string" },
+        "mechanicCondition": { "type": "string" },
+        "tyreCondition": { "type": "string" },
+        "hasAuction": { "type": "boolean" },
+        "hasAccident": { "type": "boolean" },
+        "hasDebts": { "type": "boolean" },
+        "debtsValue": { "type": "number" },
+        "suggestedPrice": { "type": "number" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["ownerId", "plate", "brandModel", "suggestedPrice"]
+    },
+    "EventReview": {
+      "title": "EventReview",
+      "description": "User ratings and comments about automotive events.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "eventId": { "type": "string" },
+        "eventTitle": { "type": "string" },
+        "userName": { "type": "string" },
+        "userEmail": { "type": "string" },
+        "rating": { "type": "number" },
+        "comment": { "type": "string" },
+        "likes": { "type": "number" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["userName", "rating", "comment"]
+    }
+  },
+  "firestore": {
+    "/users/{uid}": {
+      "schema": "UserProfile",
+      "description": "User profiles."
+    },
+    "/admins/{fbUid}": {
+      "schema": "AdminSession",
+      "description": "Admin session mapping."
+    },
+    "/users/{uid}/alerts/{alertId}": {
+      "schema": "Alert",
+      "description": "User's search alerts."
+    },
+    "/users/{uid}/notifications/{notificationId}": {
+      "schema": "Notification",
+      "description": "User's notifications."
+    },
+    "/push_tokens/{tokenId}": {
+      "schema": "PushToken",
+      "description": "FCM push tokens."
+    },
+    "/vehicles/{vehicleId}": {
+      "schema": "Vehicle",
+      "description": "Vehicle listings."
+    },
+    "/products/{productId}": {
+      "schema": "Product",
+      "description": "Product listings."
+    },
+    "/services/{serviceId}": {
+      "schema": "Service",
+      "description": "Service listings."
+    },
+    "/settings/app_control": {
+      "schema": "AppControl",
+      "description": "Core application customization configurations."
+    },
+    "/settings/{settingId}": {
+      "schema": "AppSetting",
+      "description": "Global application settings like floating banner."
+    },
+    "/leads/{leadId}": {
+      "schema": "Lead",
+      "description": "Customer leads."
+    },
+    "/leads/{leadId}/messages/{messageId}": {
+      "schema": "LeadMessage",
+      "description": "Messages for a lead."
+    },
+    "/listing_stats/{listingId}": {
+      "schema": "ListingStats",
+      "description": "Statistics for a listing."
+    },
+    "/events/{eventId}": {
+      "schema": "Event",
+      "description": "Automotive events."
+    },
+    "/event_reviews/{reviewId}": {
+      "schema": "EventReview",
+      "description": "User ratings and comments for events."
+    },
+    "/test_drives/{testDriveId}": {
+      "schema": "TestDrive",
+      "description": "Test drive appointments."
+    },
+    "/video_calls/{videoCallId}": {
+      "schema": "VideoCall",
+      "description": "Video call show-room appointments."
+    },
+    "/dealer_stories/{storyId}": {
+      "schema": "DealerStory",
+      "description": "Dealer visual marketing stories."
+    },
+    "/contracts/{contractId}": {
+      "schema": "Contract",
+      "description": "Generated contracts."
+    },
+    "/evaluations/{evaluationId}": {
+      "schema": "VehicleEvaluation",
+      "description": "Vehicle evaluations and pricing results."
+    }
+  }
+}

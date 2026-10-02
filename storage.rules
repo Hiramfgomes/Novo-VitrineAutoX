@@ -1,0 +1,18 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /ads/{userId}/{allPaths=**} {
+      allow read: if true;
+      allow write: if true; // Relaxed for hybrid Supabase/Firebase setup
+    }
+    match /logos/{userId}/{allPaths=**} {
+      allow read: if true;
+      allow write: if true; // Relaxed for hybrid Supabase/Firebase setup
+    }
+    // Fallback for any other files
+    match /{allPaths=**} {
+      allow read: if true;
+      allow write: if true; // Relaxed for hybrid Supabase/Firebase setup
+    }
+  }
+}

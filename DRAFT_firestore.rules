@@ -1,0 +1,193 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // ===============================================================
+    // Global Safety Net (Pillar 0)
+    // ===============================================================
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // ===============================================================
+    // Helper Functions
+    // ===============================================================
+    
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function getSupabaseUid() {
+      return isSignedIn() && exists(/databases/$(database)/documents/uid_map/$(request.auth.uid))
+        ? get(/databases/$(database)/documents/uid_map/$(request.auth.uid)).data.supabaseUid
+        : null;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    function isAdmin() {
+      return request.auth != null && (
+        request.auth.uid == "oNY9WmlSu9NwUagrQ5MaRUrROpf2" ||
+        request.auth.token.get('email', '').toLowerCase() == "hiramfgomes@gmail.com" ||
+        checkAdminDoc(request.auth.uid) ||
+        checkSupabaseMaster(request.auth.uid)
+      );
+    }
+
+    function checkAdminDoc(uid) {
+      return exists(/databases/$(database)/documents/admins/$(uid)) && (
+        get(/databases/$(database)/documents/admins/$(uid)).data.get('role', 'user') in ['admin', 'admin_master', 'admin_senior', 'admin_basic'] ||
+        get(/databases/$(database)/documents/admins/$(uid)).data.get('email', '').toLowerCase() == "hiramfgomes@gmail.com"
+      );
+    }
+
+    function checkSupabaseMaster(uid) {
+      return exists(/databases/$(database)/documents/uid_map/$(uid)) && 
+             exists(/databases/$(database)/documents/users/$(get(/databases/$(database)/documents/uid_map/$(uid)).data.supabaseUid)) &&
+             get(/databases/$(database)/documents/users/$(get(/databases/$(database)/documents/uid_map/$(uid)).data.supabaseUid)).data.get('email', '').toLowerCase() == "hiramfgomes@gmail.com";
+    }
+
+    function isOwner(userId) {
+      // Identity check: Can be direct (UID match) or relational (via uid_map or embedded firebaseUid)
+      return isSignedIn() && (
+        request.auth.uid == userId || 
+        getSupabaseUid() == userId ||
+        (request.resource != null && request.resource.data.get('firebaseUid', '') == request.auth.uid) ||
+        (resource != null && resource.data.get('firebaseUid', '') == request.auth.uid)
+      );
+    }
+    
+    function isProfileOwner(userId, data) {
+      return isSignedIn() && (
+        request.auth.uid == userId ||
+        (data != null && data.get('firebaseUid', '') == request.auth.uid) ||
+        getSupabaseUid() == userId
+      );
+    }
+
+    function isLeadParticipant(data) {
+      let fUid = request.auth.uid;
+      let sUid = getSupabaseUid();
+      return fUid == data.get('ownerId', '') || 
+             fUid == data.get('customerId', '') ||
+             fUid in data.get('participants', []) ||
+             (sUid != null && (
+               sUid == data.get('ownerId', '') || 
+               sUid == data.get('customerId', '') ||
+               sUid in data.get('participants', [])
+             ));
+    }
+
+    // ===============================================================
+    // Entity Validation Macros
+    // ===============================================================
+
+    function isValidUserProfile(data) {
+      let allowedFields = ['uid', 'email', 'displayName', 'photoURL', 'role', 'phoneNumber', 'bio', 'city', 'state', 'neighborhood', 'isFeatured', 'subscription', 'createdAt', 'updatedAt', 'companyName', 'cnpj', 'address', 'phone', 'whatsapp', 'instagram', 'facebook', 'youtube', 'logo', 'description', 'category', 'paymentMethod', 'couponUsed', 'paymentStatus', 'plan', 'paymentId', 'firebaseUid', 'businessHours', 'phones', 'documentType', 'document_contrato_social', 'document_cartao_cnpj', 'document_alvara'];
+      return data.keys().hasAll(['uid', 'email', 'role']) && 
+             data.keys().size() <= allowedFields.size() + 5 &&
+             data.uid is string &&
+             data.email is string && data.email.size() < 128 &&
+             data.role in ['user', 'admin', 'lojista', 'admin_master', 'admin_senior', 'admin_basic'] &&
+             (!('firebaseUid' in data) || (data.firebaseUid == null || (data.firebaseUid is string && data.firebaseUid.size() < 128)));
+    }
+
+    function isValidVehicle(data) {
+      return (!('manufacturer' in data) || (data.manufacturer is string && data.manufacturer.size() < 100)) &&
+             (!('model' in data) || (data.model is string && data.model.size() < 100)) &&
+             (!('price' in data) || data.price is number) &&
+             (!('ownerId' in data) || data.ownerId is string) &&
+             (!('status' in data) || data.status in ['active', 'sold', 'pending']) &&
+             (!('paymentStatus' in data) || data.paymentStatus in ['unpaid', 'paid', 'pending']);
+    }
+
+    // ===============================================================
+    // Collection Match Blocks (Development Compatibility Mode)
+    // ===============================================================
+
+    match /users/{userId} {
+      allow read, write: if true;
+
+      match /alerts/{alertId} {
+        allow read, write: if true;
+      }
+
+      match /notifications/{notificationId} {
+        allow read, write: if true;
+      }
+    }
+
+    match /uid_map/{fbUid} {
+      allow read, write: if true;
+    }
+
+    match /admins/{fbUid} {
+      allow read, write: if true;
+    }
+
+    match /vehicles/{vehicleId} {
+      allow read, write: if true;
+    }
+
+    match /products/{productId} {
+      allow read, write: if true;
+    }
+
+    match /services/{serviceId} {
+      allow read, write: if true;
+    }
+
+    match /banners/{bannerId} {
+      allow read, write: if true;
+    }
+
+    match /settings/{settingId} {
+      allow read, write: if true;
+    }
+    
+    match /events/{eventId} {
+      allow read, write: if true;
+    }
+
+    match /reports/{reportId} {
+      allow read, write: if true;
+    }
+
+    match /push_tokens/{tokenId} {
+      allow read, write: if true;
+    }
+
+    match /favorites/{favoriteId} {
+      allow read, write: if true;
+    }
+
+    match /leads/{leadId} {
+      allow read, write: if true;
+      
+      match /messages/{messageId} {
+        allow read, write: if true;
+      }
+    }
+
+    match /listing_stats/{listingId} {
+      allow read, write: if true;
+    }
+
+    match /test_drives/{testDriveId} {
+      allow read, write: if true;
+    }
+
+    match /video_calls/{videoCallId} {
+      allow read, write: if true;
+    }
+  }
+}

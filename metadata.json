@@ -1,0 +1,12 @@
+{
+  "name": "VitrineAutoX",
+  "description": "VitrineAutoX - O maior ecossistema automotivo",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
