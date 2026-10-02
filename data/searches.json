@@ -1,0 +1,145 @@
+[
+  {
+    "id": "srch_1790688171604_8hfg",
+    "manufacturer": "FERRARI",
+    "model": "ROMA",
+    "type": "",
+    "query": "Ferrari Roma 2024",
+    "label": "",
+    "city": "João Pessoa",
+    "state": "PB",
+    "timestamp": "2026-09-29T13:22:51.604Z"
+  },
+  {
+    "id": "srch_1001",
+    "manufacturer": "TOYOTA",
+    "model": "COROLLA",
+    "type": "car",
+    "query": "Toyota Corolla",
+    "label": "Toyota Corolla",
+    "city": "João Pessoa",
+    "state": "PB",
+    "timestamp": "2026-09-29T10:15:00Z"
+  },
+  {
+    "id": "srch_1002",
+    "manufacturer": "TOYOTA",
+    "model": "COROLLA",
+    "type": "car",
+    "query": "Corolla XEi",
+    "label": "Corolla XEi",
+    "city": "João Pessoa",
+    "state": "PB",
+    "timestamp": "2026-09-29T10:20:00Z"
+  },
+  {
+    "id": "srch_1003",
+    "manufacturer": "TOYOTA",
+    "model": "COROLLA",
+    "type": "car",
+    "query": "Corolla 2022",
+    "label": "Corolla 2022",
+    "city": "Cabedelo",
+    "state": "PB",
+    "timestamp": "2026-09-29T11:05:00Z"
+  },
+  {
+    "id": "srch_1004",
+    "manufacturer": "HONDA",
+    "model": "CIVIC",
+    "type": "car",
+    "query": "Honda Civic",
+    "label": "Honda Civic",
+    "city": "João Pessoa",
+    "state": "PB",
+    "timestamp": "2026-09-29T09:30:00Z"
+  },
+  {
+    "id": "srch_1005",
+    "manufacturer": "HONDA",
+    "model": "CIVIC",
+    "type": "car",
+    "query": "Civic Touring",
+    "label": "Civic Touring",
+    "city": "João Pessoa",
+    "state": "PB",
+    "timestamp": "2026-09-29T10:45:00Z"
+  },
+  {
+    "id": "srch_1006",
+    "manufacturer": "FIAT",
+    "model": "STRADA",
+    "type": "car",
+    "query": "Fiat Strada",
+    "label": "Fiat Strada Cabine Dupla",
+    "city": "João Pessoa",
+    "state": "PB",
+    "timestamp": "2026-09-29T08:15:00Z"
+  },
+  {
+    "id": "srch_1007",
+    "manufacturer": "FIAT",
+    "model": "STRADA",
+    "type": "car",
+    "query": "Strada Volcano",
+    "label": "Strada Volcano",
+    "city": "Campina Grande",
+    "state": "PB",
+    "timestamp": "2026-09-29T11:12:00Z"
+  },
+  {
+    "id": "srch_1008",
+    "manufacturer": "JEEP",
+    "model": "COMPASS",
+    "type": "car",
+    "query": "Jeep Compass",
+    "label": "Jeep Compass Longitude",
+    "city": "João Pessoa",
+    "state": "PB",
+    "timestamp": "2026-09-29T09:10:00Z"
+  },
+  {
+    "id": "srch_1009",
+    "manufacturer": "VOLKSWAGEN",
+    "model": "GOL",
+    "type": "car",
+    "query": "Gol 1.0",
+    "label": "Volkswagen Gol",
+    "city": "João Pessoa",
+    "state": "PB",
+    "timestamp": "2026-09-29T07:45:00Z"
+  },
+  {
+    "id": "srch_1010",
+    "manufacturer": "CHEVROLET",
+    "model": "ONIX",
+    "type": "car",
+    "query": "Chevrolet Onix",
+    "label": "Chevrolet Onix Turbo",
+    "city": "João Pessoa",
+    "state": "PB",
+    "timestamp": "2026-09-29T11:30:00Z"
+  },
+  {
+    "id": "srch_1011",
+    "manufacturer": "TOYOTA",
+    "model": "HILUX",
+    "type": "truck",
+    "query": "Toyota Hilux",
+    "label": "Toyota Hilux 4x4",
+    "city": "João Pessoa",
+    "state": "PB",
+    "timestamp": "2026-09-29T11:40:00Z"
+  },
+  {
+    "id": "srch_1012",
+    "manufacturer": "HONDA",
+    "model": "HR-V",
+    "type": "car",
+    "query": "Honda HR-V",
+    "label": "Honda HR-V EXL",
+    "city": "João Pessoa",
+    "state": "PB",
+    "timestamp": "2026-09-29T12:05:00Z"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "menu_veiculos": "Veículos",
+  "menu_servicos": "Serviços e Produtos",
+  "menu_eventos": "Eventos",
+  "menu_noticias": "Notícias",
+  "menu_ecossistema_active": true,
+  "cat_veiculos_name": "Veículos",
+  "cat_veiculos_image": "",
+  "cat_veiculos_desc": "Carros, motos e caminhões",
+  "cat_servicos_name": "SERVIÇOS E PRODUTOS AUTOMOTIVOS",
+  "cat_servicos_image": "",
+  "cat_servicos_desc": "Oficinas, lojas de peças e profissionais",
+  "cat_eventos_name": "Eventos",
+  "cat_eventos_image": "",
+  "cat_eventos_desc": "Encontros e exposições",
+  "cat_noticias_name": "Notícias e Informações",
+  "cat_noticias_image": "",
+  "cat_noticias_desc": "Notícias, testes e dicas",
+  "cat_ecossistema_name": "ECOSSISTEMA",
+  "cat_ecossistema_image": "",
+  "cat_ecossistema_desc": "Inovações, tecnologias e tendências automotivas"
+}

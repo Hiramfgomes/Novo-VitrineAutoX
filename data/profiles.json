@@ -1,0 +1,1484 @@
+[
+  {
+    "id": "7272333c-4d7e-40a3-910a-1df2c28cacea",
+    "personalState": "PB",
+    "company_neighborhood": "Manaíra",
+    "personal_city": "João Pessoa",
+    "full_name": "Hiram franceschini Gomes da Silva",
+    "whatsapp": "(83) 92152-8021",
+    "uid": "7272333c-4d7e-40a3-910a-1df2c28cacea",
+    "personalNeighborhood": "Manaíra",
+    "service_documentacao": false,
+    "service_suporte": false,
+    "service_precedencia": false,
+    "companyNeighborhood": "Manaíra",
+    "companyCity": "João Pessoa",
+    "company_state": "PB",
+    "preferredName": "Hiram",
+    "company_city": "João Pessoa",
+    "state": "PB",
+    "displayName": "Hiram",
+    "photoURL": "https://iowfiwxvfdshmheqvjln.supabase.co/storage/v1/object/public/portal/avatars/7272333c-4d7e-40a3-910a-1df2c28cacea/avatar_7272333c-4d7e-40a3-910a-1df2c28cacea_1784914244584.jpg",
+    "email": "hiramfranceschinigomes@gmail.com",
+    "role": "user",
+    "firebaseUid": "7272333c-4d7e-40a3-910a-1df2c28cacea",
+    "service_seguros": false,
+    "city": "João Pessoa",
+    "isVerified": true,
+    "updatedAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1786367954,
+      "nanoseconds": 525000000
+    },
+    "service_entrega": false,
+    "companyState": "PB",
+    "personalCity": "João Pessoa",
+    "cpf": "955.706.671-72",
+    "photo_url": "https://iowfiwxvfdshmheqvjln.supabase.co/storage/v1/object/public/portal/avatars/7272333c-4d7e-40a3-910a-1df2c28cacea/avatar_7272333c-4d7e-40a3-910a-1df2c28cacea_1784914244584.jpg",
+    "service_laudo_cautelar": false,
+    "neighborhood": "Manaíra",
+    "service_garantia": false,
+    "service_higienizacao": false,
+    "isApproved": true,
+    "phone": "(83) 92152-8021",
+    "personal_neighborhood": "Manaíra",
+    "companyName": "",
+    "service_financiamentos": false,
+    "address": "",
+    "fullName": "Hiram franceschini Gomes da Silva",
+    "service_revisao_pre_entrega": false,
+    "personal_state": "PB",
+    "birthDate": "1982-03-25"
+  },
+  {
+    "id": "7a92198c-f8d3-4d3a-8c30-712839c5107e",
+    "personal_state": "PB",
+    "service_financiamentos": true,
+    "whatsapp": "",
+    "company_neighborhood": "Trincheiras",
+    "memberSince": "Desde 2026",
+    "phones": [
+      {
+        "number": "(65) 9995-7848",
+        "isWhatsapp": true,
+        "sellerName": "Geral"
+      },
+      {
+        "isWhatsapp": true,
+        "number": "(65) 9995-7848",
+        "sellerName": "Atendimento"
+      }
+    ],
+    "phone": "",
+    "service_seguros": true,
+    "service_garantia": true,
+    "personalNeighborhood": "Ponta de Matos",
+    "service_documentacao": true,
+    "isFeatured": true,
+    "uid": "7a92198c-f8d3-4d3a-8c30-712839c5107e",
+    "facebook": "hiramfgomes",
+    "personalState": "PB",
+    "email": "imoveiskathi@gmail.com",
+    "photoURL": "",
+    "companyWhatsapp": "",
+    "personal_city": "Cabedelo",
+    "company_city": "João Pessoa",
+    "personalAddress": "Avenida Cassiano da Cunha Nobrega, 287 ",
+    "isApproved": true,
+    "companyState": "PB",
+    "state": "PB",
+    "personalCity": "Cabedelo",
+    "full_name": "Hiramzinho Gomes da Silva",
+    "personal_address": "Avenida Cassiano da Cunha Nobrega, 287 ",
+    "document_alvara": "",
+    "personalPhone": "(65) 9995-7848",
+    "description": "VEÍCULOS NOVOS E USADOS",
+    "kwai": "hiramfgomes",
+    "cpf": "016.645.851-17",
+    "firebaseUid": "7a92198c-f8d3-4d3a-8c30-712839c5107e",
+    "linkedin": "hiramfgomes",
+    "companyPhone": "",
+    "logo": "",
+    "company_address": "Rua Paulo Rodrigues Leitão",
+    "fullName": "Hiramzinho Gomes da Silva",
+    "companyNeighborhood": "Trincheiras",
+    "service_precedencia": true,
+    "aboutCompany": "Fundada em 2005, a HIFRAGO VEÍCULOS vem realizando sonhos.",
+    "isVerified": true,
+    "service_higienizacao": true,
+    "photoUrl": "https://iowfiwxvfdshmheqvjln.supabase.co/storage/v1/object/public/portal/logos/7a92198c-f8d3-4d3a-8c30-712839c5107e/1787308626914.png",
+    "mission": "Ser a maior de Joaão Pessoa",
+    "banner_url": "",
+    "company_name": "Kathi Veículos",
+    "companyName": "Kathi Veículos",
+    "city": "João Pessoa",
+    "company_state": "PB",
+    "document_cartao_cnpj": "",
+    "preferredName": "Hiramzinho",
+    "businessHours": {
+      "segunda": {
+        "close": "21:00",
+        "isOpen": true,
+        "open": "10:00"
+      },
+      "quarta": {
+        "open": "10:00",
+        "isOpen": true,
+        "close": "21:00"
+      },
+      "sabado": {
+        "isOpen": true,
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sexta": {
+        "isOpen": true,
+        "close": "21:00",
+        "open": "10:00"
+      },
+      "quinta": {
+        "isOpen": true,
+        "close": "21:00",
+        "open": "10:00"
+      },
+      "terca": {
+        "isOpen": true,
+        "close": "21:00",
+        "open": "10:00"
+      },
+      "domingo": {
+        "close": "18:00",
+        "isOpen": false,
+        "open": "10:00"
+      }
+    },
+    "personal_neighborhood": "Ponta de Matos",
+    "service_entrega": true,
+    "service_laudo_cautelar": true,
+    "companyAddress": "Rua Paulo Rodrigues Leitão",
+    "cnpj": "016.645.851-17",
+    "instagram": "hiramfgomes",
+    "canonicalUid": "7a92198c-f8d3-4d3a-8c30-712839c5107e",
+    "updatedAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1787308719,
+      "nanoseconds": 937000000
+    },
+    "values": "Ética nas negociações, transparência no processo",
+    "displayName": "Kathi Veículos",
+    "isMerged": true,
+    "photo_url": "",
+    "bio": "VEÍCULOS NOVOS E USADOS",
+    "preferred_name": "Hiramzinho",
+    "address": "Rua Paulo Rodrigues Leitão",
+    "companyCity": "João Pessoa",
+    "birthDate": "1986-06-19",
+    "approvedAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1784384413,
+      "nanoseconds": 622000000
+    },
+    "service_suporte": true,
+    "documentType": "CPF",
+    "category": "lojista",
+    "personalWhatsapp": "(65) 9995-7848",
+    "bannerUrl": "",
+    "document_contrato_social": "",
+    "personalEmail": "atendimentobuston@gmail.com",
+    "youtube": "hiramfgomes",
+    "neighborhood": "Trincheiras",
+    "vision": "Ser a maior e melhore revenda de veículos da Paraíba",
+    "role": "lojista",
+    "subscription": {
+      "status": "active",
+      "updatedAt": {
+        "type": "firestore/timestamp/1.0",
+        "seconds": 1784983681,
+        "nanoseconds": 261000000
+      },
+      "expiresAt": "2026-08-24T12:48:01.178Z",
+      "plan": "lojista_10"
+    },
+    "tiktok": "hiramfgomes",
+    "service_revisao_pre_entrega": true,
+    "display_name": "Kathi Veículos",
+    "is_approved": true,
+    "is_verified": true,
+    "is_featured": true,
+    "updated_at": "2026-09-28T13:16:47.935Z",
+    "phone_number": "",
+    "phoneNumber": "",
+    "company_phone": "",
+    "company_whatsapp": ""
+  },
+  {
+    "id": "7e81bfde-e17b-438e-89c9-df1c321b0d4c",
+    "instagram": "hiramfgomes",
+    "photoURL": "/mock-uploads/logos/oNY9WmlSu9NwUagrQ5MaRUrROpf2/1790354013967.webp",
+    "service_garantia": true,
+    "email": "hiramfgomes@gmail.com",
+    "displayName": "Hifrago Veículos",
+    "address": "Rua Paulo Rodrigues Leitão",
+    "values": "Étcia na venda, Transparência no processo.",
+    "kwai": "hiramfgomes",
+    "updatedAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1786799163,
+      "nanoseconds": 521000000
+    },
+    "company_state": "PB",
+    "documentType": "CPF",
+    "preferredName": "Hiram",
+    "businessHours": {
+      "terca": {
+        "isOpen": true,
+        "close": "21:00",
+        "open": "10:00"
+      },
+      "quarta": {
+        "open": "10:00",
+        "isOpen": true,
+        "close": "21:00"
+      },
+      "domingo": {
+        "isOpen": false,
+        "close": "18:00",
+        "open": "10:00"
+      },
+      "sabado": {
+        "isOpen": true,
+        "close": "21:00",
+        "open": "10:00"
+      },
+      "sexta": {
+        "close": "21:00",
+        "isOpen": true,
+        "open": "10:00"
+      },
+      "segunda": {
+        "isOpen": true,
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "quinta": {
+        "open": "10:00",
+        "isOpen": true,
+        "close": "21:00"
+      }
+    },
+    "document_cartao_cnpj": "",
+    "bio": "VEÍCULOS NOVOS E USADOS",
+    "companyCity": "Cabedelo",
+    "phone": "(65) 9995-7848",
+    "neighborhood": "Trincheiras",
+    "birthDate": "1982-03-25",
+    "city": "João Pessoa",
+    "whatsapp": "(65) 9995-7848",
+    "document_contrato_social": "",
+    "facebook": "hiramfgomes",
+    "service_suporte": true,
+    "logo": "/mock-uploads/logos/oNY9WmlSu9NwUagrQ5MaRUrROpf2/1790354013967.webp",
+    "personal_state": "PB",
+    "service_laudo_cautelar": true,
+    "photo_url": "/mock-uploads/logos/oNY9WmlSu9NwUagrQ5MaRUrROpf2/1790354013967.webp",
+    "fullName": "Hiram Franceschini Gomes da Silva",
+    "youtube": "hiramfgomes",
+    "personal_address": "Avenida Cassiano da Cunha Nobrega, 287",
+    "personal_neighborhood": "Ponta de Matos",
+    "vision": "Ser a maior revenda de carros de João Pessoa",
+    "state": "PB",
+    "tiktok": "hiramfgomes",
+    "service_entrega": true,
+    "personalEmail": "hiramfgomes@gmail.com",
+    "bannerUrl": "/mock-uploads/banners/oNY9WmlSu9NwUagrQ5MaRUrROpf2/1790599827103.webp",
+    "linkedin": "hiramfgomes",
+    "personalNeighborhood": "Ponta de Matos",
+    "service_documentacao": true,
+    "companyPhone": "(65) 9995-7848",
+    "companyNeighborhood": "Ponta de Matos",
+    "service_precedencia": true,
+    "personalCity": "Cabedelo",
+    "companyState": "PB",
+    "company_neighborhood": "Ponta de Matos",
+    "company_address": "Avenida Cassiano da Cunha Nobrega, 287",
+    "phones": [
+      {
+        "sellerName": "Geral",
+        "isWhatsapp": true,
+        "number": "(65) 9995-7848"
+      },
+      {
+        "isWhatsapp": true,
+        "sellerName": "Atendimento",
+        "number": "(83) 92152-8021"
+      }
+    ],
+    "memberSince": "Desde 2026",
+    "role": "admin_master",
+    "uid": "7e81bfde-e17b-438e-89c9-df1c321b0d4c",
+    "company_name": "Hifrago Veículos",
+    "companyAddress": "Avenida Cassiano da Cunha Nobrega, 287",
+    "service_financiamentos": true,
+    "personal_city": "Cabedelo",
+    "personalAddress": "Avenida Cassiano da Cunha Nobrega, 287",
+    "aboutCompany": "Fundada em 2005, a VITRINEAUTOX vem realizando sonhos.",
+    "personalState": "PB",
+    "document_alvara": "",
+    "cnpj": "32.970.293/0001-26",
+    "banner_url": "/mock-uploads/banners/oNY9WmlSu9NwUagrQ5MaRUrROpf2/1790599827103.webp",
+    "personalPhone": "(83) 92152-8021",
+    "isVerified": false,
+    "full_name": "Hiram Franceschini Gomes da Silva",
+    "mission": "Ser referencia em venda de carros usados",
+    "companyName": "Hifrago Veículos",
+    "companyWhatsapp": "(65) 9995-7848",
+    "company_city": "Cabedelo",
+    "service_revisao_pre_entrega": true,
+    "service_seguros": true,
+    "cpf": "955.706.671-72",
+    "service_higienizacao": true,
+    "isApproved": true,
+    "firebaseUid": "7e81bfde-e17b-438e-89c9-df1c321b0d4c",
+    "category": "veiculos",
+    "description": "NOVOS E USADOS COM GARANTIA",
+    "display_name": "Hifrago Veículos",
+    "updated_at": "2026-09-28T13:16:03.953Z",
+    "phone_number": "(65) 9995-7848",
+    "phoneNumber": "(65) 9995-7848",
+    "company_phone": "(65) 9995-7848",
+    "company_whatsapp": "(65) 9995-7848"
+  },
+  {
+    "id": "9ea8a2b8-6e6a-4d1e-a672-7bf957ffe52f",
+    "displayName": "Kati",
+    "whatsapp": "(65) 9995-7848",
+    "bio": "Funilaria e pintura automotiva em geral",
+    "isApproved": true,
+    "service_entrega": false,
+    "phones": [
+      {
+        "isWhatsapp": true,
+        "sellerName": "Geral",
+        "number": "(65) 9995-7848"
+      },
+      {
+        "number": "(65) 9995-7848",
+        "sellerName": "Atendimento",
+        "isWhatsapp": true
+      }
+    ],
+    "companyCity": "João Pessoa",
+    "documentType": "CPF",
+    "facebook": "hiramfgomes",
+    "company_state": "PB",
+    "preferredName": "Kati",
+    "businessHours": {
+      "domingo": {
+        "isOpen": false,
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "sexta": {
+        "isOpen": true,
+        "close": "21:00",
+        "open": "10:00"
+      },
+      "quinta": {
+        "open": "10:00",
+        "close": "21:00",
+        "isOpen": true
+      },
+      "terca": {
+        "isOpen": true,
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sabado": {
+        "close": "21:00",
+        "open": "10:00",
+        "isOpen": true
+      },
+      "quarta": {
+        "isOpen": true,
+        "close": "21:00",
+        "open": "10:00"
+      },
+      "segunda": {
+        "close": "21:00",
+        "isOpen": true,
+        "open": "10:00"
+      }
+    },
+    "neighborhood": "Trincheiras",
+    "isVerified": true,
+    "personal_state": "PB",
+    "personalWhatsapp": "(65) 9995-7848",
+    "subscription": {
+      "plan": "service_mensal",
+      "updatedAt": {
+        "type": "firestore/timestamp/1.0",
+        "seconds": 1776000761,
+        "nanoseconds": 473000000
+      },
+      "expiresAt": "2026-05-12T13:32:40.439Z",
+      "status": "active"
+    },
+    "photoURL": "/mock-uploads/documents/mock-uid-atendimentobustongmailcom/photoURL_sync_1782398342798.png",
+    "service_financiamentos": false,
+    "companyNeighborhood": "Trincheiras",
+    "service_precedencia": false,
+    "cnpj": "016.645.851-17",
+    "full_name": "katiana Gomes da Silva",
+    "document_cartao_cnpj": "",
+    "banner_url": "https://iowfiwxvfdshmheqvjln.supabase.co/storage/v1/object/public/portal/banners/9ea8a2b8-6e6a-4d1e-a672-7bf957ffe52f/1786019827988.png",
+    "canonicalUid": "9ea8a2b8-6e6a-4d1e-a672-7bf957ffe52f",
+    "service_suporte": false,
+    "document_contrato_social": "",
+    "isFeatured": true,
+    "role": "lojista",
+    "linkedin": "hiramfgomes",
+    "mission": "",
+    "fullName": "katiana Gomes da Silva",
+    "personal_neighborhood": "Manaira",
+    "personalEmail": "atendimentobuston@gmail.com",
+    "values": "",
+    "preferred_name": "Kati",
+    "companyPhone": "(65) 9995-7848",
+    "personal_address": "Av. Maria Rosa, 1069",
+    "state": "PB",
+    "personalCity": "João Pessoa",
+    "bannerUrl": "https://iowfiwxvfdshmheqvjln.supabase.co/storage/v1/object/public/portal/banners/9ea8a2b8-6e6a-4d1e-a672-7bf957ffe52f/1786019827988.png",
+    "companyState": "PB",
+    "service_seguros": false,
+    "isMerged": true,
+    "companyWhatsapp": "(65) 9995-7848",
+    "personalNeighborhood": "Manaira",
+    "service_documentacao": false,
+    "companyAddress": "Rua Paulo Rodrigues Leitão",
+    "company_name": "HK PINTURA E FUNILARIA",
+    "memberSince": "Desde 2026",
+    "uid": "9ea8a2b8-6e6a-4d1e-a672-7bf957ffe52f",
+    "personal_city": "João Pessoa",
+    "aboutCompany": "Empresa criada para atender a demanda de pinturas automotivas em geral.",
+    "company_neighborhood": "Trincheiras",
+    "service_laudo_cautelar": false,
+    "address": "Av. Maria Rosa, 1069",
+    "personalState": "PB",
+    "document_alvara": "",
+    "birthDate": "1986-06-19",
+    "service_revisao_pre_entrega": false,
+    "logo": "https://iowfiwxvfdshmheqvjln.supabase.co/storage/v1/object/public/portal/logos/9ea8a2b8-6e6a-4d1e-a672-7bf957ffe52f/1786019702122.jpg",
+    "personalAddress": "Av. Maria Rosa, 1069",
+    "personalPhone": "(65) 9995-7848",
+    "service_garantia": false,
+    "category": "funilaria_pintura",
+    "city": "João Pessoa",
+    "service_higienizacao": false,
+    "photo_url": "",
+    "companyName": "HK PINTURA E FUNILARIA",
+    "phone": "(65) 9995-7848",
+    "tiktok": "hiramfgomes",
+    "youtube": "hiramfgomes",
+    "instagram": "hiramfgomes",
+    "company_city": "João Pessoa",
+    "company_address": "Rua Paulo Rodrigues Leitão",
+    "vision": "",
+    "updatedAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1786543874,
+      "nanoseconds": 499000000
+    },
+    "approvedAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1784384432,
+      "nanoseconds": 425000000
+    },
+    "kwai": "hiramfgomes",
+    "firebaseUid": "9ea8a2b8-6e6a-4d1e-a672-7bf957ffe52f",
+    "description": "Funilaria e pintura automotiva em geral",
+    "email": "atendimentobuston@gmail.com",
+    "cpf": "016.645.851-17"
+  },
+  {
+    "id": "da47c4ac-51d2-40c7-86fd-a59d593c1410",
+    "neighborhood": "Torre",
+    "subscription": {
+      "updatedAt": {
+        "type": "firestore/timestamp/1.0",
+        "seconds": 1776342401,
+        "nanoseconds": 903000000
+      },
+      "expiresAt": "2026-05-16T12:26:41.304Z",
+      "status": "active",
+      "plan": "lojista_mensal"
+    },
+    "cnpj": "208.475.051-20",
+    "service_financiamentos": true,
+    "vision": "",
+    "tiktok": "dagveiculos",
+    "full_name": "Dagmar Gomes da Silva",
+    "personal_neighborhood": "Torre",
+    "mission": "",
+    "businessHours": {
+      "sexta": {
+        "isOpen": true,
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "domingo": {
+        "open": "10:00",
+        "close": "18:00",
+        "isOpen": false
+      },
+      "terca": {
+        "open": "10:00",
+        "isOpen": true,
+        "close": "21:00"
+      },
+      "quinta": {
+        "isOpen": true,
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sabado": {
+        "open": "10:00",
+        "isOpen": true,
+        "close": "21:00"
+      },
+      "quarta": {
+        "isOpen": true,
+        "close": "21:00",
+        "open": "10:00"
+      },
+      "segunda": {
+        "open": "10:00",
+        "isOpen": true,
+        "close": "21:00"
+      }
+    },
+    "preferredName": "Dagmar",
+    "company_state": "PB",
+    "service_suporte": true,
+    "documentType": "CPF",
+    "companyAddress": "Av. Nossa Sra. de Fátima, 1917",
+    "personalEmail": "3468financemt@gmail.com",
+    "bio": "Venda de veículos novos e usados.",
+    "companyCity": "João Pessoa",
+    "document_cartao_cnpj": "",
+    "document_contrato_social": "",
+    "category": "veiculos",
+    "role": "user",
+    "displayName": "Dagmar",
+    "service_entrega": true,
+    "service_revisao_pre_entrega": true,
+    "values": "",
+    "service_precedencia": true,
+    "companyNeighborhood": "Torre",
+    "description": "Venda de veículos novos e usados.",
+    "personal_city": "João Pessoa",
+    "firebaseUid": "da47c4ac-51d2-40c7-86fd-a59d593c1410",
+    "state": "PB",
+    "service_higienizacao": true,
+    "personalState": "PB",
+    "company_name": "DAG VEÍCULOS",
+    "photoURL": "https://picsum.photos/seed/1780832142235.png/800/600",
+    "service_laudo_cautelar": true,
+    "youtube": "dagveiculos",
+    "company_address": "Av. Nossa Sra. de Fátima, 1917",
+    "aboutCompany": "",
+    "facebook": "dagveiculos",
+    "companyName": "",
+    "companyPhone": "(83) 92152-8021",
+    "personal_address": "Av. Nossa Sra. de Fátima, 1917",
+    "companyState": "PB",
+    "personalCity": "João Pessoa",
+    "cpf": "208.475.051-20",
+    "document_alvara": "",
+    "bannerUrl": "/mock-uploads/banners/mock-uid-3468financemtgmailcom/1784126581424.png",
+    "whatsapp": "(83) 92152-8021",
+    "personalAddress": "Av. Nossa Sra. de Fátima, 1917",
+    "address": "Av. Nossa Sra. de Fátima, 1917",
+    "company_city": "João Pessoa",
+    "isVerified": true,
+    "updatedAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1786451278,
+      "nanoseconds": 694000000
+    },
+    "phone": "(83) 92152-8021",
+    "personal_state": "PB",
+    "instagram": "dagveiculos",
+    "companyWhatsapp": "(83) 92152-8021",
+    "kwai": "dagveiculos",
+    "memberSince": "Desde 2026",
+    "banner_url": "/mock-uploads/banners/mock-uid-3468financemtgmailcom/1784126581424.png",
+    "fullName": "Dagmar Gomes da Silva",
+    "linkedin": "dagveiculos",
+    "logo": "/mock-uploads/logos/mock-uid-3468financemtgmailcom/1784126525244.png",
+    "company_neighborhood": "Torre",
+    "phones": [
+      {
+        "isWhatsapp": true,
+        "sellerName": "Hiram",
+        "number": "(83) 92152-8021"
+      },
+      {
+        "sellerName": "Kati",
+        "isWhatsapp": true,
+        "number": "(83) 98862-8021"
+      },
+      {
+        "number": "(65) 99913-7845",
+        "sellerName": "Hifrago",
+        "isWhatsapp": true
+      }
+    ],
+    "email": "3468financemt@gmail.com",
+    "isApproved": true,
+    "service_seguros": true,
+    "birthDate": "",
+    "service_garantia": true,
+    "photo_url": "",
+    "uid": "da47c4ac-51d2-40c7-86fd-a59d593c1410",
+    "personalNeighborhood": "Torre",
+    "service_documentacao": true,
+    "city": "João Pessoa",
+    "personalPhone": "(83) 92152-8021"
+  },
+  {
+    "id": "mock-uid-3468financemtgmailcom",
+    "document_alvara": "",
+    "document_cartao_cnpj": "",
+    "neighborhood": "Torre",
+    "address": "Av. Nossa Sra. de Fátima, 1917",
+    "documentType": "CPF",
+    "cpf": "208.475.051-20",
+    "company_address": "Av. Nossa Sra. de Fátima, 1917",
+    "personalPhone": "(83) 92152-8021",
+    "state": "PB",
+    "values": "",
+    "service_revisao_pre_entrega": true,
+    "companyAddress": "Av. Nossa Sra. de Fátima, 1917",
+    "bannerUrl": "/mock-uploads/banners/mock-uid-3468financemtgmailcom/1784126581424.png",
+    "service_financiamentos": true,
+    "displayName": "DAG VEÍCULOS",
+    "instagram": "dagveiculos",
+    "vision": "",
+    "email": "3468financemt@gmail.com",
+    "city": "João Pessoa",
+    "service_garantia": true,
+    "youtube": "dagveiculos",
+    "updatedAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1786450773,
+      "nanoseconds": 606000000
+    },
+    "tiktok": "dagveiculos",
+    "companyCity": "João Pessoa",
+    "service_seguros": true,
+    "logo": "/mock-uploads/logos/mock-uid-3468financemtgmailcom/1784126525244.png",
+    "isApproved": true,
+    "phone": "(83) 92152-8021",
+    "birthDate": "",
+    "document_contrato_social": "",
+    "banner_url": "/mock-uploads/banners/mock-uid-3468financemtgmailcom/1784126581424.png",
+    "uid": "mock-uid-3468financemtgmailcom",
+    "kwai": "dagveiculos",
+    "companyWhatsapp": "(83) 92152-8021",
+    "isVerified": true,
+    "category": "veiculos",
+    "photo_url": "https://picsum.photos/seed/1780832142235.png/800/600",
+    "aboutCompany": "",
+    "service_suporte": true,
+    "service_documentacao": true,
+    "photoURL": "https://picsum.photos/seed/1780832142235.png/800/600",
+    "company_name": "DAG VEÍCULOS",
+    "full_name": "Dagmar Gomes da Silva",
+    "company_neighborhood": "Torre",
+    "companyNeighborhood": "Torre",
+    "personalEmail": "3468financemt@gmail.com",
+    "service_precedencia": true,
+    "companyName": "DAG VEÍCULOS",
+    "whatsapp": "(83) 92152-8021",
+    "cnpj": "208.475.051-20",
+    "companyState": "PB",
+    "firebaseUid": "mock-uid-3468financemtgmailcom",
+    "companyPhone": "(83) 92152-8021",
+    "description": "Venda de veículos novos e usados.",
+    "facebook": "dagveiculos",
+    "phones": [
+      {
+        "number": "(83) 92152-8021",
+        "sellerName": "Hiram",
+        "isWhatsapp": true
+      },
+      {
+        "sellerName": "Kati",
+        "isWhatsapp": true,
+        "number": "(83) 98862-8021"
+      },
+      {
+        "sellerName": "Hifrago",
+        "isWhatsapp": true,
+        "number": "(65) 99913-7845"
+      }
+    ],
+    "service_laudo_cautelar": true,
+    "fullName": "Dagmar Gomes da Silva",
+    "service_entrega": true,
+    "mission": "",
+    "role": "user",
+    "bio": "Venda de veículos novos e usados.",
+    "company_city": "João Pessoa",
+    "memberSince": "Desde 2026",
+    "preferredName": "Dagmar",
+    "businessHours": {
+      "terca": {
+        "close": "21:00",
+        "open": "10:00",
+        "isOpen": true
+      },
+      "sexta": {
+        "isOpen": true,
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "segunda": {
+        "close": "21:00",
+        "isOpen": true,
+        "open": "10:00"
+      },
+      "quinta": {
+        "open": "10:00",
+        "close": "21:00",
+        "isOpen": true
+      },
+      "sabado": {
+        "open": "10:00",
+        "isOpen": true,
+        "close": "21:00"
+      },
+      "domingo": {
+        "close": "18:00",
+        "open": "10:00",
+        "isOpen": false
+      },
+      "quarta": {
+        "isOpen": true,
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "company_state": "PB",
+    "service_higienizacao": true,
+    "linkedin": "dagveiculos"
+  },
+  {
+    "id": "mock-uid-admin-google",
+    "role": "legacy_merged",
+    "service_laudo_cautelar": true,
+    "vision": "Ser a maior e melhore revenda de veículos da Paraíba",
+    "phone": "(65) 9995-7848",
+    "document_alvara": "",
+    "whatsapp": "(65) 9995-7848",
+    "firebaseUid": "mock-uid-admin-google",
+    "tiktok": "hiramfgomes",
+    "description": "SEMINOVOS COM QUALIDADE E GARANTIA",
+    "preferredName": "Hiramzinho",
+    "businessHours": {
+      "terca": {
+        "isOpen": true,
+        "close": "21:00",
+        "open": "10:00"
+      },
+      "quarta": {
+        "open": "10:00",
+        "isOpen": true,
+        "close": "21:00"
+      },
+      "domingo": {
+        "isOpen": false,
+        "close": "18:00",
+        "open": "10:00"
+      },
+      "sabado": {
+        "isOpen": true,
+        "close": "21:00",
+        "open": "10:00"
+      },
+      "sexta": {
+        "close": "21:00",
+        "isOpen": true,
+        "open": "10:00"
+      },
+      "segunda": {
+        "isOpen": true,
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "quinta": {
+        "open": "10:00",
+        "isOpen": true,
+        "close": "21:00"
+      }
+    },
+    "facebook": "hiramfgomes",
+    "instagram": "hiramfgomes",
+    "youtube": "hiramfgomes",
+    "updatedAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1784748799,
+      "nanoseconds": 706000000
+    },
+    "email": "hiramfgomes@gmail.com",
+    "companyName": "Hifrago Veículos",
+    "photoURL": "/mock-uploads/logos/oNY9WmlSu9NwUagrQ5MaRUrROpf2/1790354013967.webp",
+    "photo_url": "/mock-uploads/logos/oNY9WmlSu9NwUagrQ5MaRUrROpf2/1790354013967.webp",
+    "document_cartao_cnpj": "",
+    "birthDate": "1986-06-19",
+    "bio": "VEÍCULOS NOVOS E USADOS",
+    "address": "Rua Paulo Rodrigues Leitão",
+    "state": "PB",
+    "memberSince": "Desde 2026",
+    "linkedin": "hiramfgomes",
+    "service_seguros": true,
+    "bannerUrl": "",
+    "company_name": "Hifrago Veículos",
+    "cnpj": "32.970.293/0001-26",
+    "fullName": "Hiram Gomes",
+    "service_revisao_pre_entrega": true,
+    "values": "Ética nas negociações, transparência no processo",
+    "aboutCompany": "Fundada em 2005, a VITRINEAUTOX vem realizando sonhos.",
+    "personalEmail": "atendimentobuston@gmail.com",
+    "city": "João Pessoa",
+    "service_financiamentos": true,
+    "service_suporte": true,
+    "canonicalUid": "oNY9WmlSu9NwUagrQ5MaRUrROpf2",
+    "document_contrato_social": "",
+    "mission": "Ser a maior de Joaão Pessoa",
+    "logo": "/mock-uploads/logos/oNY9WmlSu9NwUagrQ5MaRUrROpf2/1790354013967.webp",
+    "kwai": "hiramfgomes",
+    "isFeatured": false,
+    "isMerged": true,
+    "service_documentacao": true,
+    "cpf": "016.645.851-17",
+    "full_name": "Katiana Gomes da Silva",
+    "banner_url": "",
+    "service_garantia": true,
+    "personalPhone": "(65) 9995-7848",
+    "service_entrega": true,
+    "documentType": "CNPJ",
+    "service_precedencia": true,
+    "isVerified": true,
+    "category": "veiculos",
+    "service_higienizacao": true,
+    "neighborhood": "Trincheiras",
+    "isApproved": false,
+    "uid": "mock-uid-admin-google",
+    "displayName": "Hifrago Veículos",
+    "phones": [
+      {
+        "sellerName": "Geral",
+        "isWhatsapp": true,
+        "number": "(65) 9995-7848"
+      },
+      {
+        "isWhatsapp": true,
+        "sellerName": "Atendimento",
+        "number": "(83) 92152-8021"
+      }
+    ],
+    "display_name": "Hifrago Veículos",
+    "phone_number": "(65) 9995-7848",
+    "phoneNumber": "(65) 9995-7848",
+    "companyPhone": "(65) 9995-7848",
+    "company_phone": "(65) 9995-7848",
+    "companyWhatsapp": "(65) 9995-7848",
+    "company_whatsapp": "(65) 9995-7848",
+    "updated_at": "2026-09-28T13:16:03.953Z",
+    "companyAddress": "Rua Paulo Rodrigues Leitão",
+    "company_address": "Rua Paulo Rodrigues Leitão",
+    "companyNeighborhood": "Trincheiras",
+    "company_neighborhood": "Trincheiras",
+    "companyCity": "João Pessoa",
+    "company_city": "João Pessoa",
+    "companyState": "PB",
+    "company_state": "PB"
+  },
+  {
+    "id": "mock-uid-atendimentobustongmailcom",
+    "service_suporte": false,
+    "companyName": "",
+    "mission": "",
+    "category": "funilaria_pintura",
+    "service_higienizacao": false,
+    "company_state": "PB",
+    "description": "Trabalhamos com Funilaria e Pintura Automotiva",
+    "preferredName": "Kati",
+    "businessHours": {
+      "domingo": {
+        "open": "10:00",
+        "close": "18:00",
+        "isOpen": false
+      },
+      "quinta": {
+        "close": "21:00",
+        "isOpen": true,
+        "open": "10:00"
+      },
+      "sexta": {
+        "isOpen": true,
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "terca": {
+        "isOpen": true,
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "quarta": {
+        "open": "10:00",
+        "close": "21:00",
+        "isOpen": true
+      },
+      "sabado": {
+        "close": "21:00",
+        "open": "10:00",
+        "isOpen": true
+      },
+      "segunda": {
+        "close": "21:00",
+        "isOpen": true,
+        "open": "10:00"
+      }
+    },
+    "full_name": "Katiana Gomes da Silva",
+    "firebaseUid": "mock-uid-atendimentobustongmailcom",
+    "isFeatured": false,
+    "service_laudo_cautelar": false,
+    "companyAddress": "Rua Paulo Rodrigues Leitão",
+    "canonicalUid": "9ea8a2b8-6e6a-4d1e-a672-7bf957ffe52f",
+    "vision": "",
+    "tiktok": "hiramfgomes",
+    "banner_url": "https://iowfiwxvfdshmheqvjln.supabase.co/storage/v1/object/public/portal/banners/9ea8a2b8-6e6a-4d1e-a672-7bf957ffe52f/1786019827988.png",
+    "service_entrega": false,
+    "service_revisao_pre_entrega": false,
+    "kwai": "hiramfgomes",
+    "personalEmail": "atendimentobuston@gmail.com",
+    "neighborhood": "Varjão",
+    "isVerified": true,
+    "values": "",
+    "isMerged": true,
+    "service_documentacao": false,
+    "documentType": "CPF",
+    "city": "João Pessoa",
+    "bio": "Funilaria e pintura automotiva em geral",
+    "service_garantia": false,
+    "isApproved": false,
+    "logo": "https://iowfiwxvfdshmheqvjln.supabase.co/storage/v1/object/public/portal/logos/9ea8a2b8-6e6a-4d1e-a672-7bf957ffe52f/1786019702122.jpg",
+    "document_contrato_social": "",
+    "company_neighborhood": "Trincheiras",
+    "memberSince": "Desde 2026",
+    "cnpj": "016.645.851-17",
+    "phone": "(65) 9995-7848",
+    "bannerUrl": "https://iowfiwxvfdshmheqvjln.supabase.co/storage/v1/object/public/portal/banners/9ea8a2b8-6e6a-4d1e-a672-7bf957ffe52f/1786019827988.png",
+    "youtube": "hiramfgomes",
+    "document_alvara": "",
+    "cpf": "016.645.851-17",
+    "companyNeighborhood": "Trincheiras",
+    "company_city": "João Pessoa",
+    "service_precedencia": false,
+    "linkedin": "hiramfgomes",
+    "email": "atendimentobuston@gmail.com",
+    "fullName": "katiana Gomes da Silva",
+    "company_address": "Rua Paulo Rodrigues Leitão",
+    "service_financiamentos": false,
+    "companyCity": "João Pessoa",
+    "whatsapp": "(65) 9995-7848",
+    "photo_url": "",
+    "aboutCompany": "Empresa criada para atender a demanda de pinturas automotivas em geral.",
+    "state": "PB",
+    "phones": [
+      {
+        "sellerName": "Geral",
+        "isWhatsapp": true,
+        "number": "(65) 9995-7848"
+      },
+      {
+        "isWhatsapp": true,
+        "sellerName": "Atendimento",
+        "number": "(65) 9995-7848"
+      }
+    ],
+    "address": "Av. Dois de Fevereiro, 695",
+    "birthDate": "1986-06-19",
+    "displayName": "Cadastro Unificado",
+    "service_seguros": false,
+    "uid": "mock-uid-atendimentobustongmailcom",
+    "company_name": "",
+    "facebook": "hiramfgomes",
+    "role": "legacy_merged",
+    "companyState": "PB",
+    "photoURL": "/mock-uploads/documents/mock-uid-atendimentobustongmailcom/photoURL_sync_1782398342798.png",
+    "companyWhatsapp": "(65) 9995-7848",
+    "personalPhone": "(65) 9995-7848",
+    "instagram": "hiramfgomes",
+    "document_cartao_cnpj": "",
+    "updatedAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1786108391,
+      "nanoseconds": 498000000
+    },
+    "companyPhone": "(65) 9995-7848"
+  },
+  {
+    "id": "mock-uid-hiramfgomesgmailcom",
+    "company_state": "PB",
+    "preferredName": "Hiramzinho",
+    "businessHours": {
+      "terca": {
+        "isOpen": true,
+        "close": "21:00",
+        "open": "10:00"
+      },
+      "quarta": {
+        "open": "10:00",
+        "isOpen": true,
+        "close": "21:00"
+      },
+      "domingo": {
+        "isOpen": false,
+        "close": "18:00",
+        "open": "10:00"
+      },
+      "sabado": {
+        "isOpen": true,
+        "close": "21:00",
+        "open": "10:00"
+      },
+      "sexta": {
+        "close": "21:00",
+        "isOpen": true,
+        "open": "10:00"
+      },
+      "segunda": {
+        "isOpen": true,
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "quinta": {
+        "open": "10:00",
+        "isOpen": true,
+        "close": "21:00"
+      }
+    },
+    "fullName": "Hiram Gomes",
+    "values": "Ética nas negociações, transparência no processo",
+    "neighborhood": "Trincheiras",
+    "company_address": "Avenida Cassiano da Cunha Nobrega, 287",
+    "service_laudo_cautelar": true,
+    "phone": "(65) 9995-7848",
+    "youtube": "hiramfgomes",
+    "documentType": "CNPJ",
+    "role": "legacy_merged",
+    "cpf": "016.645.851-17",
+    "isFeatured": false,
+    "linkedin": "hiramfgomes",
+    "email": "hiramfgomes@gmail.com",
+    "document_alvara": "",
+    "document_cartao_cnpj": "",
+    "service_revisao_pre_entrega": true,
+    "companyCity": "Cabedelo",
+    "banner_url": "",
+    "cnpj": "32.970.293/0001-26",
+    "state": "PB",
+    "companyAddress": "Avenida Cassiano da Cunha Nobrega, 287",
+    "displayName": "Hifrago Veículos",
+    "service_garantia": true,
+    "companyWhatsapp": "(65) 9995-7848",
+    "isApproved": false,
+    "whatsapp": "(65) 9995-7848",
+    "service_seguros": true,
+    "personalEmail": "atendimentobuston@gmail.com",
+    "tiktok": "hiramfgomes",
+    "canonicalUid": "oNY9WmlSu9NwUagrQ5MaRUrROpf2",
+    "address": "Rua Paulo Rodrigues Leitão",
+    "vision": "Ser a maior e melhore revenda de veículos da Paraíba",
+    "facebook": "hiramfgomes",
+    "uid": "mock-uid-hiramfgomesgmailcom",
+    "companyName": "Hifrago Veículos",
+    "phones": [
+      {
+        "sellerName": "Geral",
+        "isWhatsapp": true,
+        "number": "(65) 9995-7848"
+      },
+      {
+        "isWhatsapp": true,
+        "sellerName": "Atendimento",
+        "number": "(83) 92152-8021"
+      }
+    ],
+    "aboutCompany": "Fundada em 2005, a VITRINEAUTOX vem realizando sonhos.",
+    "service_financiamentos": true,
+    "kwai": "hiramfgomes",
+    "company_name": "Hifrago Veículos",
+    "logo": "/mock-uploads/logos/oNY9WmlSu9NwUagrQ5MaRUrROpf2/1790354013967.webp",
+    "companyState": "PB",
+    "bannerUrl": "",
+    "service_higienizacao": true,
+    "mission": "Ser a maior de Joaão Pessoa",
+    "category": "veiculos",
+    "service_suporte": true,
+    "companyPhone": "(65) 9995-7848",
+    "city": "João Pessoa",
+    "isMerged": true,
+    "bio": "VEÍCULOS NOVOS E USADOS",
+    "company_neighborhood": "Ponta de Matos",
+    "personalPhone": "(65) 9995-7848",
+    "company_city": "Cabedelo",
+    "instagram": "hiramfgomes",
+    "companyNeighborhood": "Ponta de Matos",
+    "service_precedencia": true,
+    "updatedAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1786366986,
+      "nanoseconds": 288000000
+    },
+    "service_documentacao": true,
+    "memberSince": "Desde 2026",
+    "document_contrato_social": "",
+    "service_entrega": true,
+    "birthDate": "1986-06-19",
+    "updated_at": "2026-09-28T13:16:03.953Z",
+    "display_name": "Hifrago Veículos",
+    "phone_number": "(65) 9995-7848",
+    "phoneNumber": "(65) 9995-7848",
+    "company_phone": "(65) 9995-7848",
+    "company_whatsapp": "(65) 9995-7848",
+    "photo_url": "/mock-uploads/logos/oNY9WmlSu9NwUagrQ5MaRUrROpf2/1790354013967.webp",
+    "photoURL": "/mock-uploads/logos/oNY9WmlSu9NwUagrQ5MaRUrROpf2/1790354013967.webp"
+  },
+  {
+    "id": "mock-uid-hiramfranceschinigomesgmailcom",
+    "isVerified": true,
+    "firebaseUid": "mock-uid-hiramfranceschinigomesgmailcom",
+    "full_name": "",
+    "email": "hiramfranceschinigomes@gmail.com",
+    "isApproved": true,
+    "companyName": "",
+    "displayName": "hiramfranceschinigomes",
+    "role": "user",
+    "uid": "mock-uid-hiramfranceschinigomesgmailcom",
+    "updatedAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1783084414,
+      "nanoseconds": 896000000
+    },
+    "fullName": ""
+  },
+  {
+    "id": "mock-uid-imoveiskathigmailcom",
+    "company_state": "PB",
+    "personal_address": "Avenida Cassiano da Cunha Nobrega, 287 ",
+    "businessHours": {
+      "quarta": {
+        "isOpen": true,
+        "close": "21:00",
+        "open": "10:00"
+      },
+      "domingo": {
+        "close": "18:00",
+        "open": "10:00",
+        "isOpen": false
+      },
+      "sabado": {
+        "isOpen": true,
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "segunda": {
+        "open": "10:00",
+        "isOpen": true,
+        "close": "21:00"
+      },
+      "quinta": {
+        "close": "21:00",
+        "isOpen": true,
+        "open": "10:00"
+      },
+      "terca": {
+        "open": "10:00",
+        "close": "21:00",
+        "isOpen": true
+      },
+      "sexta": {
+        "close": "21:00",
+        "isOpen": true,
+        "open": "10:00"
+      }
+    },
+    "preferredName": "Hiramzinho",
+    "fullName": "Hiramzinho Gomes da Silva",
+    "full_name": "Hiramzinho Gomes da Silva",
+    "photoUrl": "https://iowfiwxvfdshmheqvjln.supabase.co/storage/v1/object/public/portal/logos/7a92198c-f8d3-4d3a-8c30-712839c5107e/1786622232576.png",
+    "values": "Ética nas negociações, transparência no processo",
+    "company_address": "Rua Paulo Rodrigues Leitão",
+    "neighborhood": "Trincheiras",
+    "service_laudo_cautelar": true,
+    "subscription": {
+      "status": "active",
+      "updatedAt": {
+        "type": "firestore/timestamp/1.0",
+        "seconds": 1784201669,
+        "nanoseconds": 612000000
+      },
+      "plan": "lojista_10",
+      "expiresAt": "2026-08-15T11:34:28.324Z"
+    },
+    "phone": "(65) 9995-7848",
+    "youtube": "hiramfgomes",
+    "documentType": "CPF",
+    "role": "legacy_merged",
+    "cpf": "016.645.851-17",
+    "personalAddress": "Avenida Cassiano da Cunha Nobrega, 287 ",
+    "linkedin": "hiramfgomes",
+    "isFeatured": false,
+    "email": "imoveiskathi@gmail.com",
+    "document_alvara": "",
+    "document_cartao_cnpj": "",
+    "service_revisao_pre_entrega": true,
+    "photoURL": "",
+    "companyCity": "João Pessoa",
+    "isVerified": true,
+    "cnpj": "016.645.851-17",
+    "banner_url": "https://iowfiwxvfdshmheqvjln.supabase.co/storage/v1/object/public/portal/banners/7a92198c-f8d3-4d3a-8c30-712839c5107e/1786622254522.png",
+    "companyAddress": "Rua Paulo Rodrigues Leitão",
+    "state": "PB",
+    "displayName": "Kathi Veículos",
+    "companyWhatsapp": "(65) 9995-7848",
+    "service_garantia": true,
+    "isApproved": false,
+    "whatsapp": "(65) 9995-7848",
+    "service_seguros": true,
+    "personalEmail": "atendimentobuston@gmail.com",
+    "tiktok": "hiramfgomes",
+    "canonicalUid": "7a92198c-f8d3-4d3a-8c30-712839c5107e",
+    "address": "Rua Paulo Rodrigues Leitão",
+    "preferred_name": "Hiramzinho",
+    "vision": "Ser a maior e melhore revenda de veículos da Paraíba",
+    "uid": "mock-uid-imoveiskathigmailcom",
+    "facebook": "hiramfgomes",
+    "companyName": "Kathi Veículos",
+    "phones": [
+      {
+        "sellerName": "Geral",
+        "number": "(65) 9995-7848",
+        "isWhatsapp": true
+      },
+      {
+        "sellerName": "Atendimento",
+        "isWhatsapp": true,
+        "number": "(65) 9995-7848"
+      }
+    ],
+    "aboutCompany": "Fundada em 2005, a VITRINEAUTOX vem realizando sonhos.",
+    "service_financiamentos": true,
+    "kwai": "hiramfgomes",
+    "approvedAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1784384413,
+      "nanoseconds": 622000000
+    },
+    "company_name": "Kathi Veículos",
+    "logo": "https://iowfiwxvfdshmheqvjln.supabase.co/storage/v1/object/public/portal/logos/7a92198c-f8d3-4d3a-8c30-712839c5107e/1786622232576.png",
+    "companyState": "PB",
+    "personalCity": "Cabedelo",
+    "personalState": "PB",
+    "bannerUrl": "https://iowfiwxvfdshmheqvjln.supabase.co/storage/v1/object/public/portal/banners/7a92198c-f8d3-4d3a-8c30-712839c5107e/1786622254522.png",
+    "personalWhatsapp": "(65) 9995-7848",
+    "service_higienizacao": true,
+    "description": "VEÍCULOS NOVOS E USADOS COM GARANTIA E PROCEDÊNCIA",
+    "mission": "Ser a maior de Joaão Pessoa",
+    "personal_city": "Cabedelo",
+    "firebaseUid": "mock-uid-imoveiskathigmailcom",
+    "category": "funilaria_pintura",
+    "service_suporte": true,
+    "companyPhone": "(65) 9995-7848",
+    "city": "João Pessoa",
+    "isMerged": true,
+    "personal_neighborhood": "Ponta de Matos",
+    "bio": "VEÍCULOS NOVOS E USADOS",
+    "company_neighborhood": "Trincheiras",
+    "personalPhone": "(65) 9995-7848",
+    "instagram": "hiramfgomes",
+    "company_city": "João Pessoa",
+    "companyNeighborhood": "Trincheiras",
+    "service_precedencia": true,
+    "updatedAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1786622372,
+      "nanoseconds": 362000000
+    },
+    "personal_state": "PB",
+    "personalNeighborhood": "Ponta de Matos",
+    "service_documentacao": true,
+    "photo_url": "https://iowfiwxvfdshmheqvjln.supabase.co/storage/v1/object/public/portal/logos/7a92198c-f8d3-4d3a-8c30-712839c5107e/1786622232576.png",
+    "document_contrato_social": "",
+    "memberSince": "Desde 2026",
+    "birthDate": "1986-06-19",
+    "service_entrega": true,
+    "display_name": "Kathi Veículos",
+    "updated_at": "2026-09-28T13:16:47.935Z"
+  },
+  {
+    "id": "oNY9WmlSu9NwUagrQ5MaRUrROpf2",
+    "birthDate": "1986-06-19",
+    "fullName": "Hiram Gomes",
+    "document_contrato_social": "",
+    "service_documentacao": true,
+    "personalPhone": "(65) 9995-7848",
+    "memberSince": "Desde 2026",
+    "canonicalUid": "oNY9WmlSu9NwUagrQ5MaRUrROpf2",
+    "photo_url": "",
+    "values": "Ética nas negociações, transparência no processo",
+    "company_address": "Avenida Cassiano da Cunha Nobrega, 287",
+    "company_neighborhood": "Ponta de Matos",
+    "instagram": "hiramfgomes",
+    "updatedAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1781172686,
+      "nanoseconds": 811000000
+    },
+    "youtube": "hiramfgomes",
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1774878070,
+      "nanoseconds": 35000000
+    },
+    "role": "lojista",
+    "document_alvara": "",
+    "linkedin": "hiramfgomes",
+    "cpf": "016.645.851-17",
+    "service_precedencia": true,
+    "companyAddress": "Avenida Cassiano da Cunha Nobrega, 287",
+    "documentType": "CNPJ",
+    "companyNeighborhood": "Ponta de Matos",
+    "firebaseUid": "mock-uid-admin-google",
+    "photoURL": "",
+    "description": "Revenda de veículos",
+    "cnpj": "32.970.293/0001-26",
+    "companyWhatsapp": "",
+    "email": "hiramfgomes@gmail.com",
+    "bannerUrl": "",
+    "service_revisao_pre_entrega": true,
+    "whatsapp": "",
+    "companyName": "Hifrago Veículos",
+    "service_financiamentos": true,
+    "service_seguros": true,
+    "uid": "oNY9WmlSu9NwUagrQ5MaRUrROpf2",
+    "address": "Avenida Cassiano da Cunha Nobrega, 287",
+    "vision": "Ser a maior e melhore revenda de veículos da Paraíba",
+    "subscription": {
+      "updatedAt": {
+        "type": "firestore/timestamp/1.0",
+        "seconds": 1775571875,
+        "nanoseconds": 610000000
+      },
+      "status": "active",
+      "plan": "lojista_mensal",
+      "expiresAt": "2026-05-07T14:24:35.570Z"
+    },
+    "tiktok": "hiramfgomes",
+    "service_higienizacao": true,
+    "neighborhood": "Ponta de Matos",
+    "facebook": "hiramfgomes",
+    "phones": [
+      {
+        "sellerName": "Geral",
+        "isWhatsapp": true,
+        "number": "(65) 9995-7848"
+      },
+      {
+        "isWhatsapp": true,
+        "sellerName": "Atendimento",
+        "number": "(83) 92152-8021"
+      }
+    ],
+    "document_cartao_cnpj": "",
+    "kwai": "hiramfgomes",
+    "isApproved": true,
+    "state": "PB",
+    "logo": "",
+    "banner_url": "",
+    "service_garantia": true,
+    "personalEmail": "hiramfgomes@gmail.com",
+    "companyCity": "Cabedelo",
+    "mission": "Ser a maior de Joaão Pessoa",
+    "isVerified": true,
+    "category": "lojista",
+    "company_city": "Cabedelo",
+    "city": "Cabedelo",
+    "displayName": "Hifrago Veículos",
+    "service_suporte": true,
+    "isFeatured": true,
+    "preferredName": "Hiramzinho",
+    "businessHours": {
+      "terca": {
+        "isOpen": true,
+        "close": "21:00",
+        "open": "10:00"
+      },
+      "quarta": {
+        "open": "10:00",
+        "isOpen": true,
+        "close": "21:00"
+      },
+      "domingo": {
+        "isOpen": false,
+        "close": "18:00",
+        "open": "10:00"
+      },
+      "sabado": {
+        "isOpen": true,
+        "close": "21:00",
+        "open": "10:00"
+      },
+      "sexta": {
+        "close": "21:00",
+        "isOpen": true,
+        "open": "10:00"
+      },
+      "segunda": {
+        "isOpen": true,
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "quinta": {
+        "open": "10:00",
+        "isOpen": true,
+        "close": "21:00"
+      }
+    },
+    "bio": "VEÍCULOS NOVOS E USADOS",
+    "company_state": "PB",
+    "isMerged": true,
+    "companyState": "PB",
+    "companyPhone": "",
+    "service_laudo_cautelar": true,
+    "aboutCompany": "Fundada em 2005, a VITRINEAUTOX vem realizando sonhos.",
+    "phone": "",
+    "full_name": "Katiana Gomes da Silva",
+    "company_name": "Hifrago Veículos",
+    "service_entrega": true,
+    "updated_at": "2026-09-28T13:16:03.952Z",
+    "display_name": "Hifrago Veículos",
+    "phone_number": "",
+    "phoneNumber": "",
+    "company_phone": "",
+    "company_whatsapp": "",
+    "is_approved": true,
+    "is_verified": true,
+    "is_featured": true
+  }
+]
